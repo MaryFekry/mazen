@@ -1,0 +1,128 @@
+body{
+	overflow-x: hidden;
+	font-family: 'Alegreya', serif;
+}
+.sec{
+	margin-top: 90px;
+}
+.fa-heart {
+    color: #cd0006;
+}
+h1{
+	margin-bottom: 30px;
+	color: #ab90c5;
+}
+h2{
+	color: #9361ca;
+	font-size: 30px;
+}
+.cover-img{
+	object-fit: cover;
+	height: 555px;
+}
+.info{
+	padding: 48px;
+	
+}
+.border-hr{
+	color: #a23427;
+    border: 6px solid #bf4f62;
+    border-image-source: url(../imgs/vinilo-decorativo-marco-flores.jpg);
+    border-image-slice: 157 155;
+    border-image-repeat: repeat;
+}
+.header{
+	color: #9361ca;
+	
+}
+.header-want{
+	text-align: left;
+}
+.header-want> .headers-info{
+	font-size: 13px;
+    font-weight: 600;
+	color: #b39ace;
+}
+.heart-col{
+	margin-top: 10em;
+}
+.mid-img{
+	width: 150px;
+	object-fit: contain;
+}
+/*...........media queries.......*/
+@media only screen and (max-width: 991px) and (min-width: 768px){
+	.info {
+    padding: 19px;
+	}
+	.section-one {
+    	margin-top: 95px;
+	}
+	h2 {
+    	font-size: 23px;
+	}
+	.cover-img {
+    	height: 460px;
+	}
+}
+
+
+@media(max-width:767px){
+	.disappear{
+		display: none;
+	}
+	.info {
+    	padding: 0px !important;
+	}
+	.cover-img {
+    	height: 405px !important;
+	}
+	.section-one {
+    	margin-top: 80px;
+    	margin-top: 80px;
+	}
+	h2 {
+    
+    	font-size: 23px;
+	}
+	.text-info{
+		font-size: 10px;
+	}
+	.card-row{
+		margin-left: 0px!important;
+		margin-right: 0px!important;
+	}
+	
+}
+
+
+@media (max-width:600px){
+	h2 {
+    	font-size: 16px;
+	}
+	.header-want> .headers-info {
+    	font-size: 11px;
+	}
+	.cover-img {
+    	height: 297px !important;
+	}
+}
+@media(max-width:485px){
+	.cover-img {
+    height: 300px !important;
+}
+	h2 {
+    font-size: 16px;
+}
+	.card-row{
+		font-size: 8px;
+	}
+	.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 149%;
+    height: auto;
+}
+	 h1 {
+    font-size: 20px;
+}
+}

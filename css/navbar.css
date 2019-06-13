@@ -1,0 +1,245 @@
+.navbar-default {
+  
+    background-color: #b16162;
+    box-shadow: 0.5px -0.5px 10.5px #777;
+    height: 85px;
+    border-color: transparent;
+	
+}
+.logo-img{
+	object-fit: contain;
+	width: 50px;
+	
+}
+.navbar-nav {
+    margin-top: 15px;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ffeded;
+    margin-top: 25px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffeded;
+}
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fffefe;
+    font-size: 16px;
+    
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    border-bottom: 7px solid #fff;
+    padding-bottom: 1.75em;
+	color:antiquewhite;
+	background-color: transparent;
+}
+.navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color:antiquewhite;
+	background-color: transparent;
+}
+/*...footer......*/
+.footer{
+	margin-top: 2em;
+	
+	background-color: #b16162;
+   	bottom: 0;
+	
+}
+
+.soc-col{
+	margin-top: 2em;
+	
+}
+.soc-footer{
+	font-size: 18px;
+    	color: #fff;
+	
+}
+.fa-whatsapp::before{
+	color: #32b432;
+	 margin-right: 5px;
+    font-size: 20px;
+}
+a:focus, a:hover {
+    color: #cbe7ff;
+    text-decoration: underline;
+}
+.fa-calendar:before {
+   color: white;
+    margin-right: 5px;
+    font-size: 20px;
+}
+.social{
+	color: white;
+	font-size: 16px;
+}
+.footer-img{
+	width: 120px;
+	margin-top: 1em;
+	
+}
+.mini{
+	font-size: 19px;
+	color: white;
+}
+
+/*......added class for navbar when scroll.....*/
+.nav-scroll{
+	background-color: #b16162;
+    box-shadow: 0.5px -0.5px 10.5px #777;
+    height: 51px;
+    border-color: transparent;
+	
+}
+.nav-scroll .navbar-brand .logo-img{
+	width: 35px;
+	margin-top: -8px;
+	object-fit: contain;
+	
+}
+.nav-scroll .navbar-toggle {
+    border-color: #ffeded;
+    margin-top: 9px;
+}
+.nav-scroll .navbar-toggle .icon-bar {
+    background-color: #ffeded;
+}
+.nav-scroll .navbar-nav{
+	margin-top: 2px;
+}
+.nav-scroll .navbar-nav>.active>a, .nav-scroll .navbar-nav>.active>a:focus, .nav-scroll .navbar-nav>.active>a:hover {
+    border-bottom: 5px solid #fff;
+    padding-bottom: 0.6em;
+	color:antiquewhite;
+	background-color: transparent;
+}
+.nav-scroll .navbar-nav>li>a {
+    color: #fffefe;
+    font-size: 16px;
+    
+}
+.navbar-nav>li>a:focus, .nav-scroll .navbar-nav>li>a:hover {
+    color:antiquewhite;
+	background-color: transparent;
+}
+/*...........media queries.......*/
+@media only screen and (max-width: 991px) and (min-width: 768px){
+	
+.container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -22px;
+}
+
+}
+@media(max-width:767px){
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+              border-color: #884647 !important;
+              margin-top: 18px !important;
+              background-color: #884647 !important;
+
+	}
+	.nav-scroll .navbar-collapse, .nav-scroll .navbar-form {
+    	border-color: #884647;
+    	margin-top: 0px;
+    	background-color: #884647;
+	}
+	.nav-scroll .navbar-nav {
+    	margin-top: 0px;
+	}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    	border-bottom: 2px solid #fff;
+    	padding-bottom: 0.9em;
+    	color: antiquewhite;
+    	background-color: #ce82829c;
+	}
+	.nav-scroll .navbar-nav>.active>a, .nav-scroll .navbar-nav>.active>a:focus, .nav-scroll .navbar-nav>.active>a:hover {
+		border-bottom: 2px solid #fff;
+		padding-bottom: 0.9em;
+    	color: antiquewhite;
+    	background-color: #ce82829c;
+	}
+	.footer {
+    	margin-top: 2em;
+    	
+    
+	}
+	.soc-footer{
+	font-size: 17px !important;
+    	
+	
+}
+	.social {
+    	font-size: 15px !important;
+	}
+	.fa-whatsapp::before {
+		font-size: 17px !important;
+	}
+	.fa-calendar:before {
+    	font-size: 12px !important;
+	}
+	
+	.mini {
+    	font-size: 12px !important;
+    }
+	.soc-col {
+		margin-top: 1em;
+	}
+}
+
+@media(max-width:659px){
+	
+	.mini {
+    	font-size: 12px !important;
+    }
+	.soc-footer {
+    	font-size: 15px !important;
+	}
+	.social {
+    	font-size: 14px !important;
+	}
+	.br{
+		display: none;
+	}
+	.fa-whatsapp::before {
+    font-size: 17px;
+}
+	.fa-calendar:before {
+    font-size: 16px;
+}
+}
+@media(max-width:435px){
+	
+	
+	.soc-footer {
+    	font-size: 13px;
+	}
+	.fa-whatsapp::before {
+    font-size: 12px;
+}
+	.fa-calendar:before {
+    font-size: 11px;
+}
+	.social {
+    	font-size: 14px;
+	}
+	.mini {
+    	font-size: 10px;
+    }
+}
+@media(max-width:380px){
+	.soc-footer {
+    font-size: 12px;
+}
+	.social {
+    font-size: 11px;
+}
+	.mini {
+    font-size: 9px;
+}
+
+	
+}

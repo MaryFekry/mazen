@@ -1,0 +1,69 @@
+body{
+	font-family: 'Alegreya', serif;
+	}
+* {
+  box-sizing: border-box;
+}
+.section-one{
+	margin-top:150px;
+}
+.border{
+	color: #a23427;
+    	border: 27px solid #bf4f62;
+    	border-image-source: url(../imgs/vinilo-decorativo-marco-flores.jpg);
+    	border-image-slice: 153 169;
+    	border-image-repeat: repeat;
+	box-shadow: 0px 0px 15px;
+	background-color: white;
+}
+p{
+	text-align:left;
+	font-size: 20px;
+}
+.hr{
+	width: 50%;
+	border-top: 2px solid #a23427;
+}
+.bg-section{
+	background-color: #ffeded;
+	border: 0px solid #a23427;
+	box-shadow: 0px 2px 15px;
+	margin-bottom: 4em;
+	padding: 5em;
+	
+}
+
+
+@media(max-width:767px){
+	.bg-section {
+    	padding: 3em;
+		margin-left: 2em;
+    	margin-right: 2em;
+	}
+	.border-txt{
+		font-size: 33px;
+	}
+	.border {
+    		border: 20px solid #bf4f62;
+    		border-image-source: url(../imgs/vinilo-decorativo-marco-flores.jpg);
+    		border-image-slice: 153 169;
+    		border-image-repeat: repeat;
+    		box-shadow: 0px 0px 15px;
+		background-color: white;
+	}
+	p {
+    	font-size: 15px;
+	}
+	
+}
+@media(max-width:600px){
+	p{
+		font-size:12px;
+	}
+	 h1 {
+    font-size: 20px;
+}
+	.border-txt{
+		font-size: 20px;
+	}
+}
